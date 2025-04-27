@@ -1,5 +1,8 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 const Dashboard = ()=>{
+    const userid = useParams();
+    console.log(userid)
     return (
         <div>
             <div className="flex-grow-1 p-4"

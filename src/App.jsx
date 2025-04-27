@@ -19,6 +19,7 @@ function App() {
   <div className='flex-grow-1 p-4' style={{marginLeft:"220px"}}>
     <Routes>
       <Route path="/dashboard" element={<Dashboard/>}/>
+      <Route path="/dashboard/userid" element={<Dashboard/>}/>
       <Route path="/products" element={<Products/>}/>
     </Routes>
   </div>
