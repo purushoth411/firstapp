@@ -1,0 +1,11 @@
+.slide-form {
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: 1050; /* higher than modal */
+  }
+  
+  .slide-form.show {
+    transform: translateX(0);
+    box-shadow: -4px 0 12px rgba(0,0,0,0.2);
+  }
+  
